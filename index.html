@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Knowledge Quiz</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<!--HTML has 3 sections.
+Start section
+Question section
+Final section
+Appropriate button clicked on each page will hide that current section
+Appropriate button clicked on each page will display new section
+Appropriate button clicked on Question page will fill in Question section with new question and answer   -->
+<!--
+II. Content of Quiz
+a. The best tool to peel a ginger is…
+i. Vegetable peeler
+ii. Cheese grater
+iii. Paring knife
+iv. Spoon
+b. The ingredient that enhances the level of spiciness of a dish is…
+i. Salt
+ii. Garlic
+iii. Paprika
+iv. Fat
+c. To sear a protein, usually its best to…
+i. Let the protein sit in the pan in one side as long as possible
+ii. Flip the protein in the pan as many times as possible
+iii. Cook the protein in the thinnest pan
+iv. Start the cooking process from an oven
+d. The ingredient that can contribute the taste of sweet in a dish is…
+i. Paprika
+ii. Onion
+iii. Garlic
+iv. Fish Sauce
+e. Poaching is…
+i. Cooking in low heat
+ii. Cooking by simmering in liquid
+iii. Cooking something halfway
+iv. Cooking something under 30 seconds
+f. Sunny-side-up egg is…
+i. A half boiled egg cooked all the way
+ii. A pan fried egg cooked halfway
+iii. A pan fried egg with broken yolk
+iv. A grilled egg
+g. The most influential factor that makes a raw steak expensive is…
+i. Packaging
+ii. Brand
+iii. Freshness
+iv. Marble level
+h. To Julienne means
+i. To cut in a dice
+ii. To peel fruit
+iii. To cut to long thin stripes
+iv. To cut to short fat stripes
+i. Meat that can absorb the most flavor has…
+i. The most integrated fat in the muscle
+ii. No fat
+iii. Just enough fat
+iv. Been boiled
+j. Knife that has the most vary usage in the kitchen is
+i. Chef knife
+ii. Paring knife
+iii. Vegetable knife
+iv. Steak knife
+
+food logo https://cdn.pixabay.com/photo/2014/12/21/23/56/plate-food-576381_960_720.png
+
+add ally-->
+
+<body>
+    <!--Title with its subtitle-->
+    <header>
+        <h1>
+            Cooking Knowledge Quiz
+        </h1>
+        <img src="https://scontent-dft4-1.xx.fbcdn.net/v/t1.0-0/p480x480/21433209_10203684940320147_656319925209047016_n.jpg?oh=b4aa181b5a2387193629f6d4cb8b8d8c&oe=5A4F6A27" alt="Cooking logo">
+    </header>
+    <main>
+        <!--Start Section-->
+        <section class='start-section'>
+            <h2>How Much You Do Really Know about Cooking?</h2>
+            <button class='start-button' type="button">
+                <span>Start Choppin!</span>
+            </button>
+        </section>
+
+        <!--Question Section-->
+        <section class='question-section'>
+            <div class='question-answer-container'>
+                <!--question container-->
+                <div class='question-container'>
+                    <h3 class='question'>How much time I need to boil an egg to make it full-cooked?</h3>
+                </div>
+
+                <!--Answers container-->
+                <div class='answers-container'>
+                    <input class='answer' type="radio" name='answer' value='0' required>8 minutes<br />
+                    <input class='answer' type="radio" name='answer' value='1' required>7 minutes<br />
+                    <input class='answer' type="radio" name='answer' value='2' required>6.5 minutes<br />
+                    <input class='answer' type="radio" name='answer' value='3' required>12 minutes<br />
+                </div>
+            </div>
+
+            <!--Status container-->
+            <div class='status-container'>
+                <!--Question Circle-->
+                <div class='question-circle'>
+                    <p class='question-status'>Question one out of ten</p>
+                </div>
+                <!--Score Circle-->
+                <div class='score-circle'>
+                    <p>Score zero out of ten</p>
+                </div>
+                <!--Submit button-->
+                <button class='submit-button' type="button">
+                    Submit
+                </button>
+            </div>
+        </section>
+
+        <!--Final Section-->
+        <section class='final-section'>
+            <!--final words container-->
+            <div class='final-words-container'>
+                <h3 class='final-words'></h3>
+            </div>
+            <div class='final-question-answer-container'>
+                <!--final score container-->
+                <div class='final-score-container'>
+                    <p>Final Score: ten out of ten</p>
+                </div>
+
+                <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 1 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>The best tool to peel a ginger is…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Spoon</p>
+                    </div>
+
+                    <!--key answer 2 container-->
+                    <div class='key-answer-container 1'>
+                        <p class='key-answer-question'>The ingredient that enhances the level of spiciness of a dish is…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Garlic</p>
+                    </div>
+
+                    <!--key answer 3 container-->
+                    <div class='key-answer-container 2'>
+                        <p class='key-answer-question'>To sear a protein, usually its best to…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Let the protein sit in the pan in one side as long as possible</p>
+                    </div>
+
+                    <!--key answer 4 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>The ingredient that can contribute the taste of sweet in a dish is…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Onion</p>
+                    </div>
+
+                    <!--key answer 5 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>Poaching is…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Cooking by simmering in liquid</p>
+                    </div>
+
+                    <!--key answer 6 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>Sunny-side-up egg is…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> A pan fried egg cooked halfway</p>
+                    </div>
+
+                    <!--key answer 7 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>The most influential factor that makes a raw steak expensive is…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Marble level</p>
+                    </div>
+
+                    <!--key answer 8 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>To Julienne means...</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> To cut to long thin stripes</p>
+                    </div>
+
+                    <!--key answer 9 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>Meat that can absorb the most flavor has…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> The most integrated fat in the muscle</p>
+                    </div>
+
+                    <!--key answer 10 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>Knife that has the most vary usage in the kitchen is</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Chef knife</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- final status container-->
+            <div class='final-status-container'>
+                <!--reset button-->
+                <button class='reset-button'>
+                    Try Again
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+
+
+</script>
+<script src="app.js"></script>
+
+</html>
